@@ -1,9 +1,9 @@
 import "./CoreConcepts.css"
 
-function CoreConcepts({img, title, description}) {
+function CoreConcepts({image, title, description}) {
     return (
         <li>
-            <img src={img} alt={title} />
+            <img src={image} alt={title} />
             <h3>{title}</h3>
             <p>{description}</p>
         </li>
