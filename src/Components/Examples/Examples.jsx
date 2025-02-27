@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./Examples.css"
 import { EXAMPLES } from '../../data.js';
-import Section from '../Section/Section.jsx';
+import Section from '../Section/Section';
 import TabButton from '../TabButton/TabButton';
 
 const Examples = () => {
